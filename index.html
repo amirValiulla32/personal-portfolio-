@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Amir Valiulla - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-brand"><a href="index.html">Amir Valiulla</a></div>
+        <ul class="nav-menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="experience.html">Experience</a></li>
+            <li><a href="projects.html">Projects</a></li>
+            <li><a href="skills.html">Skills</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <img src="assets/images/IMG_9504.jpg" alt="Profile Picture" class="profile-image">
+            <h1>Hi, I'm <span class="highlight">Amir Valiulla</span></h1>
+            <p class="tagline">Computer Science Student | Cybersecurity Specialist | Software Developer</p>
+            <div class="cta-buttons">
+                <a href="projects.html" class="btn primary">View My Work</a>
+                <a href="contact.html#contact-form" class="btn secondary">Contact Me</a>
+            </div>
+            <div class="social-links">
+                <a href="https://github.com/amirValiulla32" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/amir-valiulla/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about reveal">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="about-content">
+                <p>Computer Science student at California State University Fullerton, specializing in Cybersecurity. I'm passionate about software development, machine learning, and data analysis. Currently seeking part-time roles and internships to apply and enhance my skills.</p>
+                <div class="education">
+                    <h3>Education</h3>
+                    <p><strong>Bachelor of Science in Computer Science</strong></p>
+                    <p>Specializing in Cybersecurity</p>
+                    <p>California State University, Fullerton</p>
+                    <p>Expected Graduation: Spring 2026</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="experience reveal">
+        <div class="container">
+            <h2>Professional Experience</h2>
+            <div class="experience-grid">
+                <div class="experience-card">
+                    <h3>Software Engineering Intern</h3>
+                    <p class="company">Dasion AI, Claremont, CA</p>
+                    <p class="date">March 2021 – August 2021</p>
+                    <ul>
+                        <li>Built JavaScript animations for machine learning concepts</li>
+                        <li>Developed educational tools used by 500+ students</li>
+                        <li>Applied advanced algorithms including SVD and Linear Regression</li>
+                    </ul>
+                </div>
+                <!-- Add other experience cards similarly -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects reveal">
+        <div class="container">
+            <h2>Projects</h2>
+            <div class="project-card">
+                <h3>SmartPark – Web App</h3>
+                <p class="project-type">Personal Project | 50 hours</p>
+                <div class="project-details">
+                    <ul>
+                        <li>Developed a web app for real-time parking availability</li>
+                        <li>Integrated Google Maps API for live navigation</li>
+                        <li>Used Python, BeautifulSoup, and JavaScript</li>
+                        <li>Improved user experience by 25%</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2>Contact Me</h2>
+            <div class="contact-info">
+                <p><i class="fas fa-phone"></i> +714-867-4671</p>
+                <p><i class="fas fa-envelope"></i> amir.valiulla32@gmail.com</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Add this before the scripts -->
+    <div class="theme-switch-wrapper">
+        <label class="theme-switch">
+            <input type="checkbox" id="darkModeToggle">
+            <span class="slider"></span>
+        </label>
+    </div>
+
+    <script src="js/main.js"></script>
+    <script src="js/darkMode.js"></script>
+    <script src="js/transitions.js"></script>
+    <script src="js/animations.js"></script>
+</body>
+</html> 
